@@ -1,0 +1,23 @@
+@import url('http://fonts.cdnfonts.com/css/symtext');
+
+html {
+  scroll-behavior: smooth;
+}
+
+#app {
+
+  .koala__hero-header-text,
+  .koala__hero-description-text {
+    font-family: 'Symtext', sans-serif;
+  }
+}
+
+.koala__navbar-text {
+  font-family: 'Symtext', sans-serif;
+}
+
+.nuxt-link-active {
+  background-color: white;
+  color: #00f9ff;
+  border-radius: 20px;
+}
