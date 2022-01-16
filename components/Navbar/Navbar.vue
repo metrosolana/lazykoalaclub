@@ -14,7 +14,7 @@
           :to="{ path: '/', hash: 'introduce' }"
           class="koala__navbar-text px-5 py-3 lg:text-[36px]"
         >
-          Inroduce
+          Introduce
         </nuxt-link>
         <nuxt-link
           :to="{ path: '/', hash: 'faq' }"
@@ -29,7 +29,7 @@
           roadmap
         </nuxt-link>
         <nuxt-link
-          :to="{ path: '/', hash: 'mint' }"
+          :to="{ path: '/', hash: 'minting' }"
           class="koala__navbar-text px-5 py-3 lg:text-[36px]"
         >
           mint
@@ -55,7 +55,6 @@ export default {
   methods: {
     handleScroll() {
       // Your scroll handling here
-      console.log(window.scrollY)
       if (window.scrollY > 0) {
         this.isScroll = true
       } else {
@@ -65,15 +64,3 @@ export default {
   },
 }
 </script>
-<style lang="scss">
-.scrolled {
-  height: 9rem;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    120deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(0, 212, 255, 1) 0%,
-    rgba(51, 13, 105, 1) 100%
-  );
-}
-</style>

@@ -10,7 +10,7 @@
         class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
       >
         <h1
-          class="text-white uppercase koala__hero-header-text lg:text-[72px] md:text-[42px] sm:text-[35px]"
+          class="text-white uppercase koala__hero-header-text text-[72px] md:text-[45px] sm:text-[35px]"
         >
           lazy koala club
         </h1>

@@ -13,7 +13,7 @@
       <div id="roadmap">
         <Roadmap />
       </div>
-      <div id="min">
+      <div id="minting">
         <Mint />
       </div>
     </div>
